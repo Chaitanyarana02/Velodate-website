@@ -1,4 +1,5 @@
 const Footer = () => {
+
   return (
     <>
       <div className="flex gap-4 flex-col items-center">
@@ -61,7 +62,7 @@ const Footer = () => {
               </div>
 
               <div className="flex gap-2 items-center">
-                <span className="text-[#FFFFFF] font-normal text- ">Terms</span>
+                <a href="/terms-services" className="text-[#FFFFFF] font-normal text- ">Terms</a>
                 <img
                   src="/assets/footer/horizontalLine.svg"
                   alt="horizontalLine"
@@ -81,9 +82,9 @@ const Footer = () => {
               </div>
 
               <div className="flex gap-2 items-center">
-                <span className="text-[#FFFFFF] font-normal text- ">
+                <a href='/privacy-policy' className="text-[#FFFFFF] font-normal text- ">
                   Privacy Policy
-                </span>
+                </a>
               </div>
             </div>
           </div>
