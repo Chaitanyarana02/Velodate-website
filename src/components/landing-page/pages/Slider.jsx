@@ -17,7 +17,7 @@ const Slider = () => {
 
             <div className="flex items-center justify-between absolute bottom-0 w-11/12 my-4 p-2 rounded-md bg-[#00000066]">
               <button className="flex flex-col text-[#FFFFFF] text-2xl font-semibold">
-                Real-Time <span className="text-[#D19D00]">Matchmaking</span>
+              Interest-Based <span className="text-[#D19D00]">Connections</span>
               </button>
 
               <button className="bg-[#D8A409] hover:bg-[#d8a409f1] p-4 rounded-md">
@@ -53,7 +53,7 @@ const Slider = () => {
 
             <div className="flex items-center justify-between absolute bottom-0 w-11/12 my-4 p-2 rounded-md bg-[#00000066]">
               <button className="flex flex-col text-[#FFFFFF] text-2xl font-semibold">
-                Real-Time <span className="text-[#D19D00]">Matchmaking</span>
+              No to <span className="text-[#D19D00]">Swiping</span>
               </button>
 
               <button className="bg-[#D8A409] hover:bg-[#d8a409f1] p-4 rounded-md">

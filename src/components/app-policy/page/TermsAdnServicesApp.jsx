@@ -342,20 +342,11 @@ const TermsAdnServicesApp = () => {
 
                 <div className="flex flex-col text-left font-medium my-4">
                   <p className="py-1">Velodate, Inc.</p>
-                  <p className="py-1">[INSERT NAME OF CONTACT PERSON]</p>
-                  <p className="py-1">
-                    &nbsp;{" "}
-                    <span className="text-[#D8A409] underline">
-                      {" "}
-                      <a href="mailto:support@velodate.com">
-                        {" "}
-                        support@velodate.com
-                      </a>
-                    </span>
-                  </p>
-                  <p className="py-1">[INSERT PHONE NUMBER]</p>
+                  <p className="py-1">Velodate, Inc.</p>
+                  <p className="py-1">Chetan Soni</p>
+                  <p className="py-1">&nbsp; <span className="text-[#D8A409] underline">  <a href="mailto:support@velodate.com"> support@velodate.com</a></span></p>
+                  <p className="py-1">+1 9084874811</p>
                   <p className="py-1">8, The Green, STE B,</p>
-                  <p className="py-1">Dover,</p>
                   <p className="py-1">DE, 19901</p>
                   <p className="py-1">UNITED STATES</p>
                 </div>
