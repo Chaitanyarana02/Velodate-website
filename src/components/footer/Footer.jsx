@@ -1,4 +1,8 @@
+import { useNavigate } from "react-router-dom";
+
 const Footer = () => {
+
+  const navigate = useNavigate();
 
   return (
     <>
@@ -54,7 +58,7 @@ const Footer = () => {
            
 
               <div className="flex gap-2 items-center">
-                <a href="/terms-services" className="text-[#FFFFFF] font-normal text- ">Terms</a>
+                <a onClick={()=>navigate('/terms-services')} className="text-[#FFFFFF] font-normal text- ">Terms</a>
                 <img
                   src="/assets/footer/horizontalLine.svg"
                   alt="horizontalLine"
@@ -66,7 +70,7 @@ const Footer = () => {
              
 
               <div className="flex gap-2 items-center">
-                <a href='/privacy-policy' className="text-[#FFFFFF] font-normal text- ">
+                <a onClick={()=>navigate('/privacy-policy')} className="text-[#FFFFFF] font-normal text- ">
                   Privacy Policy
                 </a>
               </div>
