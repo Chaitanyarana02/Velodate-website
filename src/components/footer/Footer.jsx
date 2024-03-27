@@ -51,15 +51,7 @@ const Footer = () => {
         <div className="flex flex-col gap-4 md:gap-0 md:flex-row items-center justify-between w-full px-8 py-2">
           <div className="flex gap-2 items-center max-[459px]:flex-col">
             <div className="flex gap-2 items-center">
-              <div className="flex gap-2 items-center">
-                <span className="text-[#FFFFFF] font-normal text- ">
-                  Safety Tips
-                </span>
-                <img
-                  src="/assets/footer/horizontalLine.svg"
-                  alt="horizontalLine"
-                />
-              </div>
+           
 
               <div className="flex gap-2 items-center">
                 <a href="/terms-services" className="text-[#FFFFFF] font-normal text- ">Terms</a>
@@ -71,15 +63,7 @@ const Footer = () => {
             </div>
 
             <div className="flex gap-2 items-center">
-              <div className="flex gap-2 items-center">
-                <span className="text-[#FFFFFF] font-normal text- ">
-                  Cookies Policy
-                </span>
-                <img
-                  src="/assets/footer/horizontalLine.svg"
-                  alt="horizontalLine"
-                />
-              </div>
+             
 
               <div className="flex gap-2 items-center">
                 <a href='/privacy-policy' className="text-[#FFFFFF] font-normal text- ">
