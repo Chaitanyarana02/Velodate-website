@@ -206,7 +206,7 @@ const PrivacyAndPolicy = () => {
     <div className="lg:mt-[3%]  md:px-0 text-base px-3  pt-5  lg:p-0">
         <h2 className="text-2xl mt-6">Account Closure</h2>
         <p className="tracking-wide flex text-left font-[500] my-4">
-        If you no longer wish to use the Application or have your information processed by us in order to provide you the service through the Application, you may simply delete your account. All information stored by you will be automatically deleted upon closure of your account. Unless you delete your account and remove yourself from the use of the Application, we will store your information as long as your account is active/open.  </p>
+        To delete the account you need to open the app, go to profile settings and click "Delete Account" button.  </p>
     </div>
     <div className="lg:mt-[3%]  md:px-0 text-base px-3  pt-5  lg:p-0">
         <h2 className="text-2xl mt-6">Lawful Disclosure</h2>

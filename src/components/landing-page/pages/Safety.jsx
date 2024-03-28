@@ -17,9 +17,9 @@ const Safety = () => {
             <p className="text-[#FFFFFF] font-medium text-center">
               Your data is safe
             </p>
-            <p className="text-[#F6F6F6] font-normal text-base text-center">
-              Utilizing advanced SSL encryption,<br/> we ensure that your personal<br/>
-              information and communications <br/>are protected from unauthorized <br/>
+            <p className="text-[#F6F6F6] font-normal text-base text-center px-3 ">
+              Utilizing advanced SSL encryption,<br className="hidden sm:hidden md:block " /> we ensure that your personal<br className="hidden sm:hidden md:block " />
+              information and communications <br className="hidden sm:hidden md:block " />are protected from unauthorized <br className="hidden sm:hidden md:block " />
               access at all times.
             </p>
           </div>
@@ -29,9 +29,9 @@ const Safety = () => {
             <p className="text-[#FFFFFF] font-medium text-center">
               Secure Communication
             </p>
-            <p className="text-[#F6F6F6] font-normal text-base text-center">
-              Our encrypted messaging system <br/> keeps your conversations private<br/>
-              and secure, so you can share <br/> freely without worry.
+            <p className="text-[#F6F6F6] font-normal text-base text-center px-3 ">
+              Our encrypted messaging system <br className="hidden sm:hidden md:block " /> keeps your conversations private<br className="hidden sm:hidden md:block " />
+              and secure, so you can share <br className="hidden sm:hidden md:block " /> freely without worry.
             </p>
           </div>
 
@@ -40,8 +40,8 @@ const Safety = () => {
             <p className="text-[#FFFFFF] font-medium text-center">
               Continuous Monitoring
             </p>
-            <p className="text-[#F6F6F6] font-normal text-base text-center">
-              Our systems actively monitor for <br/> suspicious activity, helping to <br/>
+            <p className="text-[#F6F6F6] font-normal text-base text-center  px-3 ">
+              Our systems actively monitor for <br className="hidden sm:hidden md:block " /> suspicious activity, helping to <br className="hidden sm:hidden md:block " />
               prevent fraud and ensuring a safe  environment for all users.
             </p>
           </div>
